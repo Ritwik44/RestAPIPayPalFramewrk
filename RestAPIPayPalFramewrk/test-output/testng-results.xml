@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20590" started-at="2021-07-11T06:22:21Z" finished-at="2021-07-11T06:22:42Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20590" started-at="2021-07-11T06:22:21Z" finished-at="2021-07-11T06:22:42Z">
+      <class name="com.PayPal.APITest.CreateOrderTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.PayPal.APITest.CreateOrderTest@43195e57]" name="setup" is-config="true" duration-ms="5645" started-at="2021-07-11T11:52:16Z" finished-at="2021-07-11T11:52:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createorder()[pri:0, instance:com.PayPal.APITest.CreateOrderTest@43195e57]" name="createorder" duration-ms="18015" started-at="2021-07-11T11:52:21Z" finished-at="2021-07-11T11:52:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createorder -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.PayPal.APITest.CreateOrderTest@43195e57]" name="teardown" is-config="true" duration-ms="2" started-at="2021-07-11T11:52:45Z" finished-at="2021-07-11T11:52:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.PayPal.APITest.CreateOrderTest -->
+      <class name="com.PayPal.APITest.GetOrderTest">
+        <test-method status="PASS" signature="getOrderTest()[pri:0, instance:com.PayPal.APITest.GetOrderTest@1a451d4d]" name="getOrderTest" duration-ms="2442" started-at="2021-07-11T11:52:39Z" finished-at="2021-07-11T11:52:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOrderTest -->
+      </class> <!-- com.PayPal.APITest.GetOrderTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

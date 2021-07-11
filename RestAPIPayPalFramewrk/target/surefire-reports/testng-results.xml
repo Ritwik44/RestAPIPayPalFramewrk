@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-11T12:17:17Z" name="Suite" finished-at="2021-07-11T12:17:24Z" duration-ms="6997">
+    <groups>
+    </groups>
+    <test started-at="2021-07-11T12:17:17Z" name="Test" finished-at="2021-07-11T12:17:24Z" duration-ms="6997">
+      <class name="com.PayPal.APITest.CreateOrderTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.PayPal.APITest.CreateOrderTest@573906eb]" started-at="2021-07-11T17:47:16Z" name="setup" finished-at="2021-07-11T17:47:17Z" duration-ms="864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createorder()[pri:0, instance:com.PayPal.APITest.CreateOrderTest@573906eb]" started-at="2021-07-11T17:47:17Z" name="createorder" finished-at="2021-07-11T17:47:22Z" duration-ms="4822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createorder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.PayPal.APITest.CreateOrderTest@573906eb]" started-at="2021-07-11T17:47:26Z" name="teardown" finished-at="2021-07-11T17:47:26Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.PayPal.APITest.CreateOrderTest -->
+      <class name="com.PayPal.APITest.GetOrderTest">
+        <test-method signature="getOrderTest()[pri:0, instance:com.PayPal.APITest.GetOrderTest@56c4278e]" started-at="2021-07-11T17:47:22Z" name="getOrderTest" finished-at="2021-07-11T17:47:24Z" duration-ms="2134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOrderTest -->
+      </class> <!-- com.PayPal.APITest.GetOrderTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
